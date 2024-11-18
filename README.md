@@ -82,7 +82,7 @@ The project is designed as a learning exercise to build proficiency in Jakarta E
 3. **Access the Application**  
    - Open your browser and navigate to:  
      ```  
-     http://localhost:8080/Jakarta-JSF-CRUD
+     http://localhost:8080/jakarta_crud
      ```  
 
 ## Next Steps  
