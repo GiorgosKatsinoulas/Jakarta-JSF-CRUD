@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>User App</title>
+	<h:outputStylesheet name="css/style.css" />
+</h:head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h2>Dashboard</h2>
+        </div>
+        <div id="container">
+        	<div id="content">
+            <h:form>
+                <p:panel header="Dashboard">
+                    		<!-- Dashboard Button -->
+					<h:button styleClass="add-user-button"  value="Add User" outcome="addUser.xhtml"/>
+					<!-- Add User Button -->
+					<h:button styleClass="add-user-button"  value="List Users" outcome="listUser.xhtml"/>
+                </p:panel>
+            </h:form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
