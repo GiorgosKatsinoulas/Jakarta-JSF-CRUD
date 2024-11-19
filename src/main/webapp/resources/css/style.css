@@ -1,0 +1,163 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#myButton {
+    background-color: lightgray; /* Or any default color like lightgray */
+}
+
+/* Header Styling */
+#header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#header h2 {
+    margin: 0;
+    padding: 10px;
+    font-size: 24px;
+    color: #444;
+}
+
+#container {
+    max-width: 1400px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Back to List Link Styling */
+#container p a {
+    display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-top: 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#container p a:hover {
+    background-color: #e7f1ff;
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Titles */
+h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    color: #007bff;
+}
+
+/* Labels */
+.label {
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+/* Button Styling */
+.add-user-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px; /* Add spacing around buttons */
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.add-user-button:hover {
+    background-color: #0056b3;
+}
+
+/* Table Styling */
+.demo-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.demo-table th,
+.demo-table td {
+    padding: 25px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.demo-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #555;
+}
+
+.demo-table-odd-row {
+    background-color: #f9f9f9;
+}
+
+.demo-table-even-row {
+    background-color: #fff;
+}
+
+.demo-table td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.demo-table td a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .demo-table th, .demo-table td {
+        padding: 10px;
+    }
+
+    .add-user-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #header h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}
